@@ -1,9 +1,13 @@
 .container{
     display: flex;
-    padding: 10px;
-    flex-direction: row;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+.container.row {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .movie-image{
     height: 600px;
