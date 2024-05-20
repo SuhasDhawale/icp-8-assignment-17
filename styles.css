@@ -4,25 +4,27 @@
     padding: 10px;
     border: 2px solid #ccc;
 }
-.container.row {
+.row {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
 }
-.container.row-reverse {
+.row-reverse {
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
 }
-.container.column {
+.column {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-.container.column-reverse {
+.column-rev {
+    display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
     align-items: flex-end;
+    width: 100vw;
 }
 .movie-image{
     height: 600px;
